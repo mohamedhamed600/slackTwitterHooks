@@ -4,10 +4,8 @@ and listens on specific messages. For simplicity, the tool will listen on all me
 As soon as any member of the marketing team, places a messages on a channel containing the message go <br />
 the tool fetches twitter feeds from the FictionFone account and saves in a mongo collection <br />
 <hr>
-**version** <br />
-1.0.0 . <br />
+# usage  <br />
 <hr>
-usage . <br />
 Installation .<br /> 
 Install the dependencies . <br />
  npm install  
