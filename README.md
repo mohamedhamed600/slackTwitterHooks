@@ -11,5 +11,5 @@ the tool fetches twitter feeds from the FictionFone account and saves in a mongo
 Run the following command
 
 ###### *Package intsallation*
-npm install
+``` npm install ```
 
