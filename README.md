@@ -13,3 +13,14 @@ Run the following command
 ###### *Package intsallation*
 ``` npm install ```
 
+###### *Run Server*
+
+Run the following command in root directory of an app in command prompt.
+
+``` npm start ```
+``` ngrok http 3000 ```
+
+###### *Run Test*
+
+``` npm run test ```
+
