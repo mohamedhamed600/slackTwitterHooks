@@ -4,7 +4,15 @@ const status = require('./services');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-var cors = require('cors')
+var cors = require('cors');
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/techtask')
+.catch((error)=>{
+  console.log(error);
+  process.exit(1);
+});
+
+
 app.use(cors());
 
 app.post('/tweets',status.addTweets);

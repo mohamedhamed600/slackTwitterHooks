@@ -2,10 +2,10 @@ var Twitter = require('twitter');
 require('dotenv/config');
 
 var client = new Twitter({
-  consumer_key: process.env.consumer_key,
-  consumer_secret: process.env.access_token_secret,
-  access_token_key: process.env.access_token_key,
-  access_token_secret: process.env.access_token_secret
+  consumer_key: 'A7FsFfqyuxGjc6BubKzok0cib',
+  consumer_secret: '0XBim8axGDOSOGC1NddO3y2xxpbwKqYFpEzKvMngMIqexiW8OG',
+  access_token_key: '966139520474406913-fXT40fYVxc5sUrdHENPaFNfq8jxOSEF',
+  access_token_secret: 'K7snZ7j06SN7z7R6O6iNu9ieEM5xQaJZVFibtbNTkfjnH'
 });
 
 let getTwitterStatus =  ()=>{

@@ -1,6 +1,4 @@
-// load the things we need
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/techtask');
+const mongoose = require('mongoose');
 
 // define the schema for our user model
 var tweetsSchema = mongoose.Schema({
